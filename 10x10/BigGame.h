@@ -11,22 +11,12 @@ private:
 
 	int fieldSize;	
 	int player;
-	int strokes;
-	//int** gameField;	
+	int strokes;		
 	int gameField[10][10];	
 
 public:
 
-	Game() 
-	{
-		/*fieldSize = DEFAULT_FIELD_SIZE;
-		gameField = new int*[fieldSize];		
-		for(int i = 0; i < fieldSize; i++)
-		{			
-			gameField[i] = new int[fieldSize];
-		}
-		ClearField();*/
-	}
+	Game() {}
 
 	void setGameField (int line, int row, int newValue)
 	{
