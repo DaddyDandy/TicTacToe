@@ -12,7 +12,7 @@ private:
 	int fieldSize;	
 	int player;
 	int strokes;		
-	int gameField[10][10];	
+	int gameField[DEFAULT_FIELD_SIZE][DEFAULT_FIELD_SIZE];	
 
 public:
 
