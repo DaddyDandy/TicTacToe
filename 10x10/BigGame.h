@@ -6,9 +6,8 @@ using namespace std;
 class Game
 {
 private:
-
 	const static int DEFAULT_FIELD_SIZE = 10;
-
+private:
 	int fieldSize;	
 	int player;
 	int strokes;		
@@ -16,7 +15,7 @@ private:
 
 public:
 
-	Game() {}
+	Game(){}
 
 	void setGameField (int line, int row, int newValue)
 	{
